@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.all_contents{
+    display: flex;
+}
+.form{
+    width: 50vw;
+}
+.humberger {
+    position: relative;
+    background-color: rgb(255, 238, 176);
+    width: 50vw;
+    height: 100vh;
+}
+
+.top {
+    position: absolute;
+    height: auto;
+    width: 400px;
+    margin-bottom: -60px;
+    z-index: 5;
+}
+
+.lettuce {
+    position: absolute;
+    height: auto;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: -20px;
+    z-index: 4;
+}
+
+.tomato {
+    position: absolute;
+    height: auto;
+    width: 400px;
+    margin-top: 125px;
+    z-index: 3;
+}
+
+.beef {
+    position: absolute;
+    height: auto;
+    width: 400px;
+    margin-top: 180px;
+    margin-left: -20px;
+    z-index: 2;
+}
+
+.under {
+    position: absolute;
+    height: auto;
+    width: 400px;
+    margin-top: 185px;
+    z-index: 1;
+}
+p:nth-child(3n-1) {
+    color: red;
+}
